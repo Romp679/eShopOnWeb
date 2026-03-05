@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: "cloud-shell-storage-southcentralus"
+  RESOURCE-GROUP: "rg-eshoponweb-Romp679"
   LOCATION: "southcentralus"
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: "a97e2a70-258f-4fa3-bdeb-169ef69f5811"
